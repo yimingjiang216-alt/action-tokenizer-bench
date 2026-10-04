@@ -1,0 +1,2 @@
+# Keep the bash driver runnable on Linux/macOS checkouts made from Windows.
+* text=auto eol=lf
