@@ -14,7 +14,7 @@ import os
 import numpy as np
 
 N_TRAJ = 20000
-K_POINTS = 10          # waypoints per chunk (LightNav-0 uses 10 SE(2) waypoints)
+K_POINTS = 10          # waypoints per action chunk
 PER_POINT = 3          # state dims per waypoint: (x, y, yaw) or (x, y, z)
 CB = 256               # codebook size per RVQ level
 K_SINGLE = 4096        # single-level reference codebook
