@@ -128,7 +128,7 @@ def main():
     text = "\n".join(parts)
     print(text)
     if a.out:
-        with open(a.out, "w", encoding="utf-8") as fh:
+        with open(a.out, "w", encoding="utf-8", newline="\n") as fh:
             fh.write(text)
 
 
